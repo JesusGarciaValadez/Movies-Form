@@ -1,0 +1,614 @@
+{
+  "CodeKitInfo" : "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+  "settingsFileVersion" : "2",
+  "projectSettings" : {
+    "externalServerAddress" : "http:\/\/localhost\/lukajobs\/cinemex_formulario\/Code\/templates",
+    "autoprefixerBrowserString" : "> 1%, last 2 versions, ff 17, opera 12.1",
+    "uglifyFlags2" : {
+      "drop_debugger" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "booleans" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "bracketize" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "inline-script" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "hoist_vars" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "loops" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "toplevel" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "mangle" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "sequences" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "comments" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "space-colon" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "sort" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "cascade" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "unused" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "dead_code" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "indent-start" : {
+        "flagValue" : 0,
+        "active" : 0
+      },
+      "compress" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "conditionals" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "ascii-only" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "evaluate" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "comparisons" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "quote-keys" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "warnings" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "join_vars" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "properties" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "screw-ie8" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "indent-level" : {
+        "flagValue" : 4,
+        "active" : 0
+      },
+      "if_return" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "unsafe" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "max-line-len" : {
+        "flagValue" : 32000,
+        "active" : 1
+      },
+      "eval" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "hoist_funs" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "width" : {
+        "flagValue" : 80,
+        "active" : 1
+      },
+      "semicolons" : {
+        "flagValue" : -1,
+        "active" : 1
+      }
+    },
+    "coffeeAutoOutputPathStyle" : 0,
+    "javascriptCreateSourceMap" : 1,
+    "javascriptOutputSuffix" : "-ck",
+    "typescriptDisallowBool" : 0,
+    "jsLintFlags2" : {
+
+    },
+    "hamlOutputFormat" : 2,
+    "slimAutoOutputPathStyle" : 0,
+    "kitAutoOutputPathReplace1" : "",
+    "kitAutoOutputPathReplace2" : "",
+    "lessDisableJavascript" : 0,
+    "jadeCompileDebug" : 1,
+    "markdownAutoOutputPathRelativePath" : "",
+    "reloadFileURLs" : 1,
+    "stylusImportCSS" : 0,
+    "sassUseLibsass" : 0,
+    "coffeeLintFlags2" : {
+      "no_tabs" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "no_empty_param_list" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "no_stand_alone_at" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "no_trailing_whitespace" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "no_backticks" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "no_implicit_parens" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "empty_constructor_needs_parens" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "max_line_length" : {
+        "flagValue" : 150,
+        "active" : 0
+      },
+      "no_implicit_braces" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "no_throwing_strings" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "arrow_spacing" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "camel_case_classes" : {
+        "flagValue" : -1,
+        "active" : 1
+      },
+      "duplicate_key" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "line_endings" : {
+        "flagValue" : 0,
+        "active" : 0
+      },
+      "cyclomatic_complexity" : {
+        "flagValue" : 10,
+        "active" : 0
+      },
+      "space_operators" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "newlines_after_classes" : {
+        "flagValue" : 3,
+        "active" : 0
+      },
+      "non_empty_constructor_needs_parens" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "no_plusplus" : {
+        "flagValue" : -1,
+        "active" : 0
+      },
+      "indentation" : {
+        "flagValue" : 2,
+        "active" : 1
+      },
+      "no_trailing_semicolons" : {
+        "flagValue" : -1,
+        "active" : 1
+      }
+    },
+    "kitAutoOutputPathRelativePath" : "",
+    "coffeeCreateSourceMap" : 0,
+    "markdownAutoOutputPathReplace2" : "",
+    "markdownAutoOutputPathStyle" : 0,
+    "lessAutoOutputPathReplace2" : "css",
+    "lessAutoOutputPathReplace1" : "less",
+    "stylusResolveRelativeURLS" : 0,
+    "hamlUseCDATA" : 0,
+    "hamlUseUnixNewlines" : 0,
+    "typescriptCreateSourceMap" : 0,
+    "typescriptAutoOutputPathRelativePath" : "\/js",
+    "typescriptMinifyOutput" : 0,
+    "hamlOutputStyle" : 0,
+    "hamlNoEscapeInAttributes" : 0,
+    "typescriptEmitComments" : 0,
+    "sassCreateSourceMap" : 0,
+    "typescriptModuleType" : 0,
+    "coffeeAutoOutputPathReplace2" : "",
+    "typescriptAutoOutputPathStyle" : 2,
+    "hamlAutoOutputPathStyle" : 0,
+    "hamlAutoOutputPathReplace1" : "",
+    "hamlAutoOutputPathReplace2" : "",
+    "slimAutoOutputPathRelativePath" : "",
+    "markdownAutoOutputPathReplace1" : "",
+    "coffeeAutoOutputPathReplace1" : "",
+    "jadeOutputStyle" : 0,
+    "stylusDebugStyle" : 0,
+    "uglifyReservedNamesString" : "$",
+    "typescriptDisallowImportModule" : 0,
+    "lessOutputStyle" : 0,
+    "stylusAutoOutputPathReplace2" : "css",
+    "externalServerPort" : 80,
+    "sassDebugStyle" : 0,
+    "stylusAutoOutputPathReplace1" : "stylus",
+    "sassOutputStyle" : 3,
+    "slimLogicless" : 0,
+    "lessIeCompatibility" : 1,
+    "typescriptTargetECMAVersion" : 0,
+    "slimOutputStyle" : 1,
+    "jadeAutoOutputPathReplace2" : "",
+    "jadeAutoOutputPathReplace1" : "",
+    "kitAutoOutputPathStyle" : 0,
+    "animateCSSInjections" : 1,
+    "sassDecimalPrecision" : 2,
+    "skippedItemsString" : ".svn, .git, .hg, log",
+    "genericWebpageFileExtensionsString" : "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+    "coffeeSyntaxCheckerStyle" : 1,
+    "stylusAutoOutputPathStyle" : 2,
+    "hamlAutoOutputPathRelativePath" : "",
+    "slimCompileOnly" : 0,
+    "alwaysUseExternalServer" : 1,
+    "lessStrictUnits" : 0,
+    "coffeeMinifyOutput" : 1,
+    "jadeAutoOutputPathStyle" : 0,
+    "stylusOutputStyle" : 0,
+    "javascriptOutputStyle" : 1,
+    "lessCreateSourceMap" : 0,
+    "slimRailsCompatible" : 0,
+    "sassAutoOutputPathStyle" : 2,
+    "sassAutoOutputPathRelativePath" : "..\/",
+    "lessStrictImports" : 0,
+    "lessStrictMath" : 0,
+    "jsHintFlags2" : {
+
+    },
+    "coffeeOutputStyle" : 0,
+    "autoApplyPSLanguageSettingsStyle" : 0,
+    "jsCheckerReservedNamesString" : "jQuery,$,_",
+    "lessAutoOutputPathRelativePath" : "..\/css",
+    "stylusAutoOutputPathRelativePath" : "..\/css",
+    "javascriptAutoOutputPathRelativePath" : "\/min",
+    "javascriptSyntaxCheckerStyle" : 1,
+    "javascriptAutoOutputPathReplace1" : "",
+    "javascriptAutoOutputPathReplace2" : "",
+    "websiteRelativeRoot" : "Code\/templates",
+    "coffeeAutoOutputPathRelativePath" : "",
+    "typescriptCreateDeclarationFile" : 0,
+    "hamlUseDoubleQuotes" : 0,
+    "lessAllowInsecureImports" : 0,
+    "slimAutoOutputPathReplace1" : "",
+    "slimAutoOutputPathReplace2" : "",
+    "markdownExpandTabs" : 1,
+    "typescriptAutoOutputPathReplace1" : "",
+    "browserRefreshDelay" : 0,
+    "typescriptAutoOutputPathReplace2" : "",
+    "autoSyncProjectSettingsFile" : 1,
+    "javascriptAutoOutputPathStyle" : 0,
+    "lessAutoOutputPathStyle" : 2,
+    "shouldRunBless" : 0,
+    "markdownEnableFootnotes" : 0,
+    "sassAutoOutputPathReplace2" : "css",
+    "sassAutoOutputPathReplace1" : "sass",
+    "jadeAutoOutputPathRelativePath" : "",
+    "shouldRunAutoprefixer" : 1,
+    "uglifyDefinesString" : "",
+    "markdownEnableSmartyPants" : 1,
+    "lessRelativeURLS" : 0,
+    "hamlEscapeHTMLCharacters" : 0
+  },
+  "lastSavedByUser" : "Jesús García Valadez",
+  "creatorBuild" : "15888",
+  "manualImportLinks" : {
+
+  },
+  "projectAttributes" : {
+    "displayValueWasSetByUser" : 1,
+    "displayValue" : "Cinemex Formulario",
+    "bowerAbbreviatedPath" : "",
+    "iconImageName" : "meme-facepalm"
+  },
+  "hooks" : [
+
+  ],
+  "files" : {
+    "\/css\/sass\/main.scss" : {
+      "inputAbbreviatedPath" : "\/css\/sass\/main.scss",
+      "outputAbbreviatedPath" : "\/css\/main.css",
+      "outputPathIsSetByUser" : 1,
+      "shouldRunAutoprefixer" : 1,
+      "ignore" : 0,
+      "createSourceMap" : 0,
+      "decimalPrecision" : 2,
+      "ignoreWasSetByUser" : 0,
+      "debugStyle" : 0,
+      "fileType" : 4,
+      "shouldRunBless" : 0,
+      "outputStyle" : 3,
+      "useLibsass" : 0
+    },
+    "\/js\/vendor\/prefixfree.min.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/prefixfree.min.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/vendor\/prefixfree.min-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/apple-touch-icon.png" : {
+      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/apple-touch-icon.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 730,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/js\/plugins-ck.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/plugins-ck-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/js\/plugins.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "outputPathIsSetByUser" : 1,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/css\/main.css" : {
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 16
+    },
+    "\/js\/vendor\/modernizr-2.6.2.min.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/vendor\/modernizr-2.6.2.min-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/apple-touch-icon-72x72-precomposed.png" : {
+      "inputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/apple-touch-icon-72x72-precomposed.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 854,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/js\/main-ck.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/main-ck.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/main-ck-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/js\/vendor\/jquery.validate.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min.js",
+      "outputPathIsSetByUser" : 1,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/js\/vendor\/jquery.validate.min-ck.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min-ck-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/js\/main.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/main.js",
+      "outputAbbreviatedPath" : "\/js\/main-ck.js",
+      "outputPathIsSetByUser" : 1,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/favicon.png" : {
+      "inputAbbreviatedPath" : "\/favicon.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/favicon.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 2164,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/js\/vendor\/additional-methods.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/additional-methods.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/vendor\/additional-methods-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/css\/sass\/home.scss" : {
+      "inputAbbreviatedPath" : "\/css\/sass\/home.scss",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/css\/home.css",
+      "outputPathIsSetByUser" : 0,
+      "shouldRunAutoprefixer" : 1,
+      "ignore" : 1,
+      "createSourceMap" : 0,
+      "decimalPrecision" : 2,
+      "ignoreWasSetByUser" : 0,
+      "debugStyle" : 0,
+      "fileType" : 4,
+      "shouldRunBless" : 0,
+      "outputStyle" : 3,
+      "useLibsass" : 0
+    },
+    "\/index.html" : {
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 8192
+    },
+    "\/apple-touch-icon-144x144-precomposed.png" : {
+      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/apple-touch-icon-144x144-precomposed.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 1475,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/js\/vendor\/jquery-1.8.3.min.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/vendor\/jquery-1.8.3.min-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/css\/sass\/normalize.min.scss" : {
+      "inputAbbreviatedPath" : "\/css\/sass\/normalize.min.scss",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/css\/normalize.min.css",
+      "outputPathIsSetByUser" : 0,
+      "shouldRunAutoprefixer" : 1,
+      "ignore" : 1,
+      "createSourceMap" : 0,
+      "decimalPrecision" : 2,
+      "ignoreWasSetByUser" : 0,
+      "debugStyle" : 0,
+      "fileType" : 4,
+      "shouldRunBless" : 0,
+      "outputStyle" : 3,
+      "useLibsass" : 0
+    },
+    "\/apple-touch-icon-57x57-precomposed.png" : {
+      "inputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/apple-touch-icon-57x57-precomposed.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 730,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/apple-touch-icon-114x114-precomposed.png" : {
+      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/apple-touch-icon-114x114-precomposed.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 1189,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/apple-touch-icon-precomposed.png" : {
+      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/apple-touch-icon-precomposed.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 730,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/js\/vendor\/jquery.validate.min.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.validate-ck-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/js\/vendor\/jquery.form.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.form.js",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/lukajobs\/cinemex_formulario\/Code\/templates\/js\/vendor\/jquery.form-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    }
+  }
+}
